@@ -1,0 +1,985 @@
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+
+    <meta name="author" content="Anup Aglawe, Vraj Patel">
+
+    <!--SEO-->
+    <meta name="description"
+          value="Amalthea is the Annual Technical Summit of IIT Gandhinagar. The focus of Amalthea is mainly on spreading knowledge and inspiring minds to work for the greater human good.">
+    <meta property="og:title" content="Amalthea 2018 | IIT Gandhinagar">
+    <meta property="og:description"
+          content="Amalthea is the Annual Technical Summit of IIT Gandhinagar. The focus of Amalthea is mainly on spreading knowledge and inspiring minds to work for the greater human good.">
+    <meta name="ROBOTS" content="INDEX, FOLLOW">
+
+
+    <title>Amalthea '18</title>
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
+          integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Francois+One|Heebo:900|Muli|Open+Sans:600"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121783734-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-121783734-1');
+    </script>
+    <style>
+        .dropdown .dropbtn {
+            border: none;
+            outline: none;
+            margin: 0;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+    <style>
+        @media screen and (min-width:961px) {
+            .mobvisible {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<div class="site-container">
+    <div class="graphic-wrapper left-graphic-wrapper">
+        <div class="left-graphic graphic" id="lg"></div>
+    </div>
+    <div class="graphic-wrapper right-graphic-wrapper">
+        <div class="right-graphic graphic" id="rg"></div>
+    </div>
+    <div class="wrapper" id="navwrap">
+        <div class="aml"><a href="index.php" class="text-white">AMALTHEA '18</a></div>
+        <a href="javascript:void(0);" class="icon text-white" onclick="spawnLinks()"
+           style="padding-top: 8px;">&#9776;</a>
+           <nav>
+               <ul class="navb" id="navb">
+                   <li class="col" style="min-height: 40px"><a href="/"> Home</a></li>
+                   <!-- <li class="col" style="min-height: 40px"><a href="route.php"> Reach Us</a></li>
+                   <li class="col mobvisible" style="min-height: 40px"><a href="schedule.php"> Schedule</a></li>
+                   <li class="col" style="min-height: 40px"><a href="conclave.php"> Conclave</a></li>
+                   <li class="col" style="min-height: 40px"><a href="symposium.php"> Symposium</a></li>
+                   <li class="col" style="min-height: 40px"><a href="robotics.php"> Robotics </a></li>
+                   <li class="col" style="min-height: 40px"><a href="exhibition.php"> Exhibition</a></li> -->
+                   <li class="active col" style="min-height: 40px"><a href="/events.html"> Events</a></li>
+                   <!-- <li class="col" style="min-height: 40px"><a href="sponsorship.html"> Sponsors</a></li> -->
+                   <!--<li class="col" style="min-height: 40px"><a href="blog/"> Blog</a></li>-->
+                   <li class="col" style="min-height: 40px"><a href="/contact.html"> Contact</a></li>
+               </ul>
+           </nav>
+    </div>
+    <div class="content">
+        <div class="site-header" style="position: relative; width: 100%">
+            <div id="header-featured-image-eve">
+                <div class="container-fluid">
+                    <div class="header-content-wrapper">
+                        <div class="backgrounds" id="bg" style="float: left">
+                            <div id="canvas__three" class="hideOnLoad" style="opacity: 0.8;"></div>
+                        </div>
+                        <div class="header-content-inner">
+                            <div class="container">
+                                <div class="row justify-content-md-center">
+                                    <div class="col-sm-12 col-md-10 col-xl-9">
+                                        <h1 class="text-white">EVENTS</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner-bottom-content">
+                            <div class="container">
+                                <div class="row justify-content-md-center">
+                                    <div class="col-sm-12">
+                                        <div class="down-arrow-wrapper" style="padding-bottom: 3vw">
+                                            <a href="#pg-content" class="btn-anchor">
+                                                <div class="down-arrow">
+                                                    <i class="arrow down mx-auto"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" style="position: relative;background: #fff;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg-section-top white-svg"
+                 preserveAspectRatio="none" style="z-index: 1">
+                <polygon points="0,100 100,0 100,100"></polygon>
+            </svg>
+            <div class="container" id="pg-content" style="padding-bottom: 10%;padding-top: 5%">
+                <div class="row justify-content-md-center">
+
+                    <div class="col-md-4">
+                        <figure onclick="" class="snip">
+                            <img src="newpngs/drs.png" alt="img01">
+                            <figcaption>
+                                <div>
+                                    <h2>DRA</h2>
+                                </div>
+                                <div>
+                                    <p><a data-toggle="modal" data-target="#dra" class="text-white bttn btn-7">
+                                            VIEW
+                                        </a>
+                                    </p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4">
+                        <figure onclick="" class="snip">
+                            <img src="newpngs/electr.png" alt="img01">
+                            <figcaption>
+                                <div>
+                                    <h2>ELECTRONICA</h2>
+                                </div>
+                                <div>
+                                    <p><a data-toggle="modal" data-target="#electronica" class="text-white bttn btn-7">
+                                            VIEW
+                                        </a>
+                                    </p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4">
+                        <figure onclick="" class="snip">
+                            <img src="newpngs/tech.png" alt="img01">
+                            <figcaption>
+                                <div>
+                                    <h2>TECHKNOW QUEST</h2>
+                                </div>
+                                <div>
+                                    <p><a data-toggle="modal" data-target="#tkq" class="text-white bttn btn-7">
+                                            VIEW
+                                        </a>
+                                    </p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid"
+             style="position:relative; background-image: linear-gradient(to bottom, #b465da,#cf6cc9,#ee609c,#ee609c); padding-top: 1em; padding-bottom: 2em">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg-section-top voilet-svg"
+                 preserveAspectRatio="none">
+                <polygon points="0,100 100,0 100,100"></polygon>
+            </svg>
+            <div class="row">
+                <div class="container" style="padding-bottom: 7%;padding-top: 3%">
+                    <div class="row justify-content-md-around">
+                        <div class="col-md-4">
+                            <figure onclick="" class="snip">
+                                <img src="newpngs/dcode.png" alt="img01">
+                                <figcaption>
+                                    <div>
+                                        <h2>D'CODE</h2>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            <a data-toggle="modal" data-target="#dcode" class="text-white bttn btn-7">
+                                                VIEW
+                                            </a>
+
+                                        </p>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-4">
+                            <figure onclick="" class="snip">
+                                <img class="shadow" src="newpngs/robo.png" alt="img01">
+                                <figcaption>
+                                    <div>
+                                        <h2>ROBO VENTURE</h2>
+                                    </div>
+                                    <div>
+                                        <p><a data-toggle="modal" data-target="#robo" class="text-white bttn btn-7">
+                                                VIEW
+                                            </a>
+                                        </p>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-4">
+                            <figure onclick="" class="snip">
+                                <img src="newpngs/icon.png" alt="img01">
+                                <figcaption>
+                                    <div>
+                                        <h2>ICON</h2>
+                                    </div>
+                                    <div>
+                                        <p><a data-toggle="modal" data-target="#ICon" class="text-white bttn btn-7">
+                                                VIEW
+                                            </a>
+                                        </p>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid" style="position: relative;background: #fff;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg-section-top white-svg"
+                 preserveAspectRatio="none">
+                <polygon points="0,100 100,0 100,100"></polygon>
+            </svg>
+            <div class="container" style="padding-bottom: 10%;padding-top: 5%">
+                <div class="row justify-content-md-around">
+                    <div class="col-md-4">
+                        <figure onclick="" class="snip">
+                            <img src="newpngs/inqui.png" alt="img01">
+                            <figcaption>
+                                <div>
+                                    <h2>INQUIZZED</h2>
+                                </div>
+                                <div>
+                                    <p><a data-toggle="modal" data-target="#inquizzed" class="text-white bttn btn-7">
+                                            VIEW
+                                        </a>
+                                    </p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4">
+                        <figure onclick="" class="snip">
+                            <img src="newpngs/seis.png" alt="img01">
+                            <figcaption>
+                                <div>
+                                    <h2>SEISMISM</h2>
+                                </div>
+                                <div>
+                                    <p><a data-toggle="modal" data-target="#siesmism" class="text-white bttn btn-7">
+                                            VIEW
+                                        </a>
+                                    </p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-md-4">
+                        <figure class="snip">
+                            <img src="newpngs/bw.png" alt="Techarts">
+                            <figcaption>
+                                <div>
+                                    <h2>BRAINWIZ</h2>
+                                </div>
+                                <div>
+                                    <p><a data-toggle="modal" data-target="#brainwiz" class="text-white bttn btn-7">
+                                            VIEW
+                                        </a>
+                                    </p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid"
+             style="position:relative;background-image: linear-gradient(to bottom, #2577b0 0%, #50c9c3 100%, #50c9c3 100%);">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg-section-top darkblue-svg"
+                 preserveAspectRatio="none">
+                <polygon points="0,100 100,0 100,100"></polygon>
+            </svg>
+            <div class="container" style="padding-bottom: 10%;padding-top: 5%">
+                <div class="row justify-content-md-around">
+                    <div class="col-md-4">
+                        <figure onclick="" class="snip">
+                            <img src="newpngs/TechArts_logo_new.png" alt="Techarts">
+                            <figcaption>
+                                <div>
+                                    <h2>TECHARTS</h2>
+                                </div>
+                                <div>
+                                    <p><a data-toggle="modal" data-target="#techart" class="text-white bttn btn-7">
+                                            VIEW
+                                        </a>
+                                    </p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4">
+                        <figure onclick="" class="snip">
+                            <img src="newpngs/caml.png" alt="Coin-a-Thon">
+                            <figcaption>
+                                <div>
+                                    <h2>COIN-A-THON</h2>
+                                </div>
+                                <div>
+                                    <p><a data-toggle="modal" data-target="#coin" class="text-white bttn btn-7">
+                                            VIEW
+                                        </a>
+                                    </p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid content-section-wrapper"
+             style="position: relative;background: linear-gradient(to bottom, #e57e7e 0%, #f0c39d 100%);">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg-section-top orange-svg"
+                 preserveAspectRatio="none">
+                <polygon points="0,100 100,0 100,100"></polygon>
+            </svg>
+            <div class="content-section-inner">
+                <center><h1 class="display-2"><i class="text-white fab fa-connectdevelop"></i></h1></center>
+                <center>
+                    <h5>
+                        <!--<div class="text-white">For information regarding Accomodation at Amalthea'18,-->
+                        <!--    <a class=""-->
+                        <!--       href="https://docs.google.com/forms/d/e/1FAIpQLSd7LBNkPA7sNBFKrl_7CsSNnbMuxHm5P5LJytlN_csL--rvOg/viewform?usp=sf_link">Click-->
+                        <!--        here</a>-->
+                        <!--</div>-->
+                    </h5>
+                </center>
+                <br><br>
+                <center>
+
+                    <div class="svg-wrapper">
+                        <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="shape" height="60" width="320"></rect>
+                        </svg>
+                        <a class="text text-white" style="text-decoration: none;" href="schedule.php">EVENTS SCHEDULE</a>
+                    </div>
+
+                </center>
+            </div>
+        </div>
+        <footer class="site-footer">
+            <section id="footer-section">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg-section-foot foot-svg-2"
+                     preserveAspectRatio="none">
+                    <polygon points="0,100 0,30 25,85 45,35 80,100"></polygon>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg-section-foot foot-svg-1"
+                     preserveAspectRatio="none">
+                    <polygon points="0,100 25,50 50,90 100,0 100,100"></polygon>
+                </svg>
+                <div class="container">
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-10">
+                            <div class="row">
+                                <div class="col-lg-8 order-1 order-lg-0 text-white">
+                                    <div class="row justify-content-md-center justify-content-lg-start">
+                                        <div class="col-md-6 col-lg-8">
+                                            <h3 class="text-center"
+                                                style="font-family: 'Arvo', serif; font-weight: 700;">
+                                                Technopolis '19</h3>
+                                            <div class="info mx-auto justify-content-md-center">
+                                                <div class="container text-center">
+                                                    <p>
+                                                        Dr. Jivraj Mehta Institute of Technology
+                                                        <br>
+                                                        National Highway No.8,
+                                                        <br>
+                                                        Near Sankara Eye Hospital,
+                                                        <br>
+                                                        Mogar, Anand, Gujarat.
+                                                        <br>
+                                                        <bold>Pin Code: 388340</bold>
+                                                    </p>
+                                                    <p>
+                                                        <i class="fas fa-envelope"></i> Email: panjasaurabh@gmail.com
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 order-0 order-lg-1">
+                                    <div class="row">
+                                        <div class="col-12 order-1 order-lg-0 ">
+                                            <ul class="social-media">
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fab fa-facebook-f"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fab fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fab fa-linkedin-in"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fab fa-instagram"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-12 order-0 order-lg-1 ">
+                                            <div class="newsletter">
+                                                <!-- <h4>SUBSCRIBE FOR UPDATES</h4> -->
+                                                <p>Be the first to find out about all the major announcements and
+                                                    breaking
+                                                    news from Technopolis '19.</p>
+                                                <!-- <div class="btn-wrapper">
+                                                    <a href="form_new/form/index.php" class="btn btn-primary"
+                                                       style="text-transform: uppercase;font-size: 1.125rem;font-weight: 800; background: white;color: #489a99">Subscribe
+                                                        Now
+                                                    </a>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+      </div>
+
+    <!-- Modal -->
+    <div class="modal fade" style="z-index:99999" id="myModal" tabindex="-1" role="dialog"
+         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalCenterTitle">Coming Soon</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    We are working out the details of these competitions.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" style="z-index:99999" id="dcode" tabindex="-1" role="dialog"
+         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalCenterTitle">D' Code '18</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Test your mettle in algorithms and coding. Experience 3 hours of coding rush in the latest edition
+                    of D'
+                    Code. It is a competitive programming competition which will be held in collaboration with Codechef
+                    on 9:00 P.M. of the 18th of October.
+                </div>
+                <div class="modal-footer">
+                    <a target="_blank" href="https://goo.gl/forms/xFK2lIOyzi9NvooO2" class="btn btn-success"
+                       style="font-weight:800; color: white; padding-left: 2em; padding-right: 2em">REGISTER</a>
+                    <a target="_blank" href="/Rulebooks/dCODE.pdf" class="btn btn-success"
+                       style="font-weight:800; color: white; padding-left: 2em; padding-right: 2em">RULEBOOK</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" style="z-index:99999" id="robo" tabindex="-1" role="dialog"
+         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalCenterTitle">Roboventures</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <b> Drift</b> <br>
+
+                    “Are you a F1 racing lover?? Ever felt the throttle of the real RC Engines?”
+                    Drift at Amalthea has one of the best arenas in Ahmedabad for RC racers. Drift is the only event of
+                    its kind in Ahmedabad. What are you waiting for then? Grab your cars and showcase your racing skills
+                    on the land of Ahmedabad.
+                    <br>
+                    <b>Roboquest</b>
+                    <br>
+                    “War does not determine who is right-only who is left.” - Bertrand Russell<br>
+
+                    “Are you a tinkerer? Love making robots?” Then roboquest is right place for you to showcase your
+                    skills. Roboquest has been part of Amalthea since its inception. Over the year it has changed
+                    identities, some time drastically and sometimes subtly. But one thing is for sure- that event has
+                    grown in scale and the difficulty and so has the response.and we expect this year to be even better.
+                    Build your robots with extraordinary skills to overcome your opponents and challenges. The task will
+                    check every aspects of robot speed, precision, strength and logic.
+
+                </div>
+                <div class="modal-footer">
+
+                    <div class="dropdown">
+                        <button class="btn btn-info dropbtn">REGISTER
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a target="_blank" href="https://goo.gl/forms/8b2kip4ncNlDnpiF2" class="btn btn-success"
+                               style="font-weight:500; padding:1em">DRIFT</a>
+                            <a target="_blank" href="https://goo.gl/forms/nbkxGor9zGU0MSg23" class="btn btn-success"
+                               style="font-weight:500; padding:1em">ROBOQUEST</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn btn-info dropbtn">RULEBOOKS
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a target="_blank" href="/Rulebooks/Drift.pdf" class="btn btn-success"
+                               style="font-weight:500; padding:1em">DRIFT</a>
+                            <a target="_blank" href="/Rulebooks/RoboQuest.pdf" class="btn btn-success"
+                               style="font-weight:500;padding:1em">ROBOQUEST</a>
+                        </div>
+                    </div>
+
+
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="siesmism" tabindex="-1" role="dialog"
+         aria-labelledby="siestitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="siestitle">Seismism</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p style="font-weight: 800; color: black">
+                        “In an earthquake, I shouldn't run out of the house - I should run into it.”
+                    </p>
+                    <p>
+                        These words of Tony Danza reflect the standards we should expect from our budding civil
+                        engineers
+                        and architects.<br>
+                        So, are you ready to test your inner structural design skills?
+                        If yes, get ready to build an earthquake resistant model that can withstand an earthquake shake
+                        table. Be in the run with other participants for the title of 'Seismism’ and win exciting
+                        prizes.
+                        Register today!
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a target="_blank" href="https://goo.gl/forms/YwlaFcrM35pevOhk1" class="btn btn-success"
+                       style="font-weight:800; color: white; padding-left: 2em; padding-right: 2em">REGISTER</a>
+                    <a target="_blank" href="/Rulebooks/Seismism.pdf" class="btn btn-success"
+                       style="font-weight:800; color: white; padding-left: 2em; padding-right: 2em">RULEBOOK</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="techart" tabindex="-1" role="dialog"
+         aria-labelledby="tcatitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="tcatitle">TechArts</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p style="font-weight: 800; color: black">
+                        “Art” is an application of human creative skill and imagination.
+                    </p>
+                    <p>
+                        Keeping this in mind, Amalthea’18 brings you a brand new iteration of “TECHARTS”.<br>
+                        Techarts is a two-day enthralling event that brings out the inner technical artist of an
+                        individual
+                        using Brain Teasers and Puzzles which are fun, logical and challenge your problem-solving skills
+                        in
+                        a unique way. They are based on basic concepts of Technical subjects like Mathematics, Physics
+                        as
+                        well as implementing algorithms etc.<br>
+                        The Participant should untangle the puzzle within the given time bound.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a target="_blank" href="https://goo.gl/forms/ckLXCDmDD3YMmZXn2" class="btn btn-success"
+                       style="font-weight:800; color: white; padding-left: 2em; padding-right: 2em">REGISTER</a>
+                    <a target="_blank" href="/Rulebooks/TechArts.pdf" class="btn btn-success"
+                       style="font-weight:800; color: white; padding-left: 2eTm; padding-right: 2em">RULEBOOK</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="brainwiz" tabindex="-1" role="dialog"
+         aria-labelledby="tcatitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="tcatitle">BrainWiz</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!--<p style="font-weight: 800; color: black">-->
+                    <!--    “Art” is an application of human creative skill and imagination.-->
+                    <!--</p>-->
+                    <p>
+                        Amalthea presents you a brand-new event for 2018, 'BrainWiz'. This is an event specifically for
+                        students from 9th to 12th classes.</br>
+                        The event is aimed at testing the participants' problem solving skills, applicative knowledge,
+                        logical aptitude and basic knowledge of math and science.</br>
+                        While it will be challenging to play against the best participation, it will also be great
+                        fun!</br>
+                        The event consists of three rounds-</br>
+                        Game theory, logical aptitude tests and a surprise round.
+                        So gear up and get ready to battle with the best!!
+
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a target="_blank" href="https://goo.gl/forms/z2khXmWrLFwhVT3T2" class="btn btn-success"
+                       style="font-weight:800; color: white; padding-left: 2em; padding-right: 2em">REGISTER</a>
+                    <a target="_blank" href="/Rulebooks/Brainwiz.pdf" class="btn btn-success"
+                       style="font-weight:800; color: white; padding-left: 2eTm; padding-right: 2em">RULEBOOK</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="electronica" tabindex="-1" role="dialog"
+         aria-labelledby="electitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="electitle">Electronica</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p style="font-weight: 800; color: black">
+                        Think outside the circuit!
+                    </p>
+                    <p>
+                        Electronica is conducted for electronics enthusiasts, to test their fundamental knowledge of
+                        electronics and electrical concepts. The event tests basic concept clarity of the students and
+                        their
+                        ability to apply it in real world problems.<br>
+                        Electronica is carried out in form of a theory round and a practical hands-on round, testing
+                        your
+                        ability to put your knowledge to use along with loads of brain teasers and riddles of
+                        electronics
+                        that will have you stumped. So, for all the electro – enthusiasts out there, register and grab
+                        your
+                        chance to win lots of prizes!
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a target="_blank" href="https://goo.gl/forms/oLXMeJjUTLMkEqnX2" class="btn btn-success"
+                       style="font-weight:800; color: white; padding-left: 2em; padding-right: 2em">REGISTER</a>
+                    <a target="_blank" href="/Rulebooks/Electronica.pdf" class="btn btn-success"
+                       style="font-weight:800; color: white; padding-left: 2em; padding-right: 2em">RULEBOOK</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="tkq" tabindex="-1" role="dialog"
+         aria-labelledby="tkqtitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="tkqtitle">TechKnowQuest</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p style="font-weight: 800; color: black">
+                        Where logic requires imagination
+                    </p>
+                    <p>
+                        TKQ is an online logic-based event where participants need to answer a variety of questions in
+                        the
+                        given time limit. It consists of two different sub-events, LOGIX and CRYPTIC.
+                    </p>
+                    <p>
+                        In Logix, brain teasers and puzzles block your path to victory. Rack your brains to tear down
+                        these
+                        obstacles. But don’t tear out your hair! And, after a successful first season, 'CRYPTIC' is back
+                        this year with its second iteration. This event will be focused on cryptography which will
+                        require
+                        you to exercise your grey cells. Can you break the code without breaking your head?
+                    </p>
+                    <p>
+                        So get ready to turn on the gears in your brain, churn out all your knowledge and burn the
+                        midnight
+                        oil as you use your imagination to go beyond logic.
+                    </p>
+                    <p>
+                        Details on the URL on which the event will be hosted will be announced later. Register now and
+                        stay
+                        glued to the website for updates. Meanwhile, we will post sample questions so that you can get a
+                        feel of the event.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <div class="dropdown">
+                        <button class="btn btn-info dropbtn">REGISTER
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a target="_blank" href="https://goo.gl/forms/mv4T1wAeAzuggPGZ2" class="btn btn-success"
+                               style="font-weight:500; padding:1em">CRYPTIC</a>
+                            <a target="_blank" href="https://goo.gl/forms/O7wcQqwgnq5zksG63" class="btn btn-success"
+                               style="font-weight:500; padding:1em">LOGIX</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn btn-info dropbtn">RULEBOOKS
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a target="_blank" href="/Rulebooks/TKQ_cryptic.pdf" class="btn btn-success"
+                               style="font-weight:800; color: white; padding-left: 2em; padding-right: 2em">CRYPTIC</a>
+                            <a target="_blank" href="/Rulebooks/TKQ_logix.pdf" class="btn btn-success"
+                               style="font-weight:800; color: white; padding-left: 2em; padding-right: 2em">LOGIX</a>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="inquizzed" tabindex="-1" role="dialog"
+         aria-labelledby="iqtitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="iqtitle">InQuizzed</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p style="font-weight: 800; color: black">
+                        Refuse to answer a question only on the grounds that you think you don’t know it!
+                    </p>
+                    <p>
+                        Highly established as one of the best open quizzing competitions in India, the game of
+                        intellects,
+                        ‘InQuizzed’ is back this year at Amalthea for raising the bar of quizzing for another year in a
+                        row.
+                        Come and battle it out with the best brains from various colleges across India. A battle royale
+                        between our questions and your answers!
+                    </p>
+                    <p>
+                        Register now!
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a target="_blank" href="https://goo.gl/forms/wIdn5ZiZeEokRXyV2" class="btn btn-success"
+                       style="font-weight:800; color: white; padding-left: 2em; padding-right: 2em">REGISTER</a>
+                    <a target="_blank" href="/Rulebooks/inquizzed.pdf" class="btn btn-success"
+                       style="font-weight:800; color: white; padding-left: 2em; padding-right: 2em">RULEBOOK</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="dra" tabindex="-1" role="dialog"
+         aria-labelledby="dratitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="dratitle">DRA – <a href="tktktkq/xdbhjsdfbhjefbhjsdv/zootopia.png" style="color: inherit;text-decoration: none;cursor:default">Drone</a> Racing Amalthea</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p style="font-weight: 800; color: black">
+                        Join us as we experience the battle between the professionals.
+                    </p>
+                    <p>
+                        We are back with the third season of DRA, the first drone racing ever held in India. So, gear up
+                        for
+                        an unparalleled aerial racing competition as the best pilots assemble to battle it out where it
+                        all
+                        began.
+                        <br>A thrilling do-or-die tournament where professionals from all over India showcase their
+                        drone
+                        racing skills in an exquisitely constructed arena.
+                    </p>
+                    <p>
+                        What’s more, you can come along and experience the thrill for free!
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a target="_blank" href="https://goo.gl/forms/Rn9NugSutgh33ky82" class="btn btn-success"
+                       style="font-weight:800; color: white; padding-left: 2em; padding-right: 2em">REGISTER</a>
+                    <a target="_blank" href="/Rulebooks/DRA Rulebook.pdf" class="btn btn-success"
+                       style="font-weight:800; color: white; padding-left: 2em; padding-right: 2em">RULEBOOK</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ICon" tabindex="-1" role="dialog"
+         aria-labelledby="ictitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="ictitle">ICon</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p style="font-weight: 800; color: black">
+                        Innovation distinguishes between leaders and followers.
+                    </p>
+                    <p>
+                        Coming back this year after an acclaimed first season, ICon or Innovation Conference is an event
+                        which aims to provide a platform for the interaction of the creativity and passion of the
+                        participants with the experts of a field. The participants shall have to come up with technical
+                        project ideas regarding or related to a particular subject or field which they will have to
+                        present
+                        in front of a panel. So, if you have an idea that you think can change the world, participate in
+                        ICon at Amalthea and make the world a better place!
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a target="_blank" href="https://goo.gl/forms/QkHlwgAGU2QXs2Cj2" class="btn btn-success"
+                       style="font-weight:800; color: white; padding-left: 2em; padding-right: 2em">REGISTER</a>
+                    <a target="_blank" href="/Rulebooks/ICON.pdf" class="btn btn-success"
+                       style="font-weight:800; color: white; padding-left: 2em; padding-right: 2em">RULEBOOK</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="coin" tabindex="-1" role="dialog"
+         aria-labelledby="ictitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="ictitle">IndiaChains Coin-a-Thon</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        If you are an expert or beginner with interest in Cryptos or other blockchain projects then
+                        indiaChains Coin-A-Thon is the event you really don't want to miss. You will have fun building
+                        stuff. If you are a newbie, don't panic! Some of the best technical experts in the blockchain
+                        realm will be there to help you build your project. Build and Learn as you are! This three-week
+                        event is an ideal platform for you to interact with the Blockchain and Crypto ecosystem and
+                        unlock your potential to ideate, invent and develop.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a target="_blank" href="https://coinathon-aml.hackerearth.com" class="btn btn-success"
+                       style="font-weight:800; color: white; padding-left: 2em; padding-right: 2em">REGISTER</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+<script src="scripts.js"></script>
+<script src="vendors.js"></script>
+<script src="essentials.js"></script>
+</body>
+
+</html>
